@@ -20,7 +20,9 @@
                     colors: {
                         clifford: '#da373d',
                         'bike-primary': '#E76F51',
+                        'bike-primary-text': '#E76F51',
                         'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
+
                     }
                 }
             }
@@ -36,7 +38,8 @@
 </head>
 
 <body class="fonts-poppins ">
-    <header class="md:container md:m-auto ">
+    <header class="md:container md:mx-auto ">
+        <!-- NAV------------------- -->
         <nav>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
@@ -154,14 +157,22 @@
                 </div>
             </div>
         </div>
-
-
-
     </header>
 
 
-    <main class="md:container md:max-auto">
-
+    <main class="md:container md:mx-auto my-4 lg:my-24">
+        <section >
+            <div class="text-center">
+                <h1 class="text-3xl">Fetured Bikes In This Year</h1>
+                <h5><span class=" text-bike-primary-text">Best bike collection</span></h5>
+                <div class="grid p-2 md:p-4 md:grid-cols-2 lg:grid-cols-3">
+                    <div><img src="images/others/latest1.png" alt=""></div>
+                    <div><img src="images/others/latest2.png" alt=""></div>
+                    <div><img src="images/others/latest3.png" alt=""></div>
+                </div>
+                
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>
